@@ -1,0 +1,1 @@
+This repository demonstrates a common race condition bug in shell scripts. The `bug.sh` script uses multiple processes to increment a counter, but without proper synchronization, the final count is likely to be less than expected. The `bugSolution.sh` provides a corrected version using a lock file to ensure atomicity.
